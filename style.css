@@ -1,4 +1,11 @@
-nav{
+.nav{
     background-color: #44974d;
+    color: white;
+}
+.nav nav{
+    display: inline-block;
+}
+
+.nav a {
     color: white;
 }
