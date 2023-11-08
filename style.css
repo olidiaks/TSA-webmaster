@@ -1,0 +1,17 @@
+.nav {
+    background-color: #44974d;
+    color: white;
+}
+
+
+nav.nav {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+a.nav {
+    color: white;
+    margin: auto;
+}
