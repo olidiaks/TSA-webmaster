@@ -16,6 +16,10 @@ a.nav {
     margin: auto;
 }
 
+div.nav{
+    margin: auto;
+}
+
 .dropdown {
     /*display: inline-block;*/
     position: relative;
@@ -25,9 +29,11 @@ a.nav {
     display: none;
     position: absolute;
     background-color: green;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 150px;
     z-index: 1;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
 }
 
 .dropdown:hover .dropdown-content {
