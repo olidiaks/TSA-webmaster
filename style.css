@@ -17,8 +17,9 @@ a.nav {
 }
 
 .button {
-    background-color: #04AA6D; /* Green */
+    background-color: #04AA6D;
     border: none;
+    border-radius: 15px;
     color: white;
     padding: 15px 32px;
     text-align: center;
