@@ -24,11 +24,9 @@ p {
     width: 100%;
     background-color: forestgreen;
     color: white;
-<<<<<<< Updated upstream
     margin: auto;
 }
-=======
-}
+
 
 .nav a {
     float: left;
@@ -55,7 +53,6 @@ p {
     margin: 0;
 }
 
-.nav a:hover,
 .cleanpractdropdown:hover .cleandropbtn {
     background-color: red;
 }
@@ -85,4 +82,4 @@ p {
 .cleanpractdropdown:hover .cleandrop-content {
     display: block;
 }
->>>>>>> Stashed changes
+
