@@ -1,17 +1,85 @@
-.nav {
-    background-color: #44974d;
+body {
+    background-color: black;
+}
+
+h1 {
     color: white;
 }
 
-
-nav.nav {
-    width: 100%;
-    padding: 5px;
-    display: flex;
-    flex-flow: row wrap;
+h2 {
+    color: white;
 }
 
-a.nav {
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/* NAV BAR */
+.nav {
+    overflow: hidden;
+    width: 100%;
+    background-color: forestgreen;
     color: white;
     margin: auto;
 }
+
+
+.nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cleanpractdropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.cleanpractdropdown .cleandropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.cleanpractdropdown:hover .cleandropbtn {
+    background-color: red;
+}
+
+.cleandrop-content {
+    display: none;
+    position: absolute;
+    background-color: darkseagreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.cleandropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.cleandrop-content a:hover {
+    background-color: red;
+}
+
+.cleanpractdropdown:hover .cleandrop-content {
+    display: block;
+}
+
