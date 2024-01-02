@@ -88,6 +88,9 @@ dl{
     flex-flow: column nowrap;
 }
 
+/*End Nav */
+
+/* index.html double colummn formating */
 .container_for_text_and_picture{
     width: 100%;
 }
@@ -106,4 +109,11 @@ dl{
 
 .clear-floating{
     clear: both;
+}
+
+/* End index.html double colummn formating */
+
+/*Fossil Fuels*/
+summary{
+    color: lawngreen;
 }
