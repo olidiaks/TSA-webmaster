@@ -88,3 +88,7 @@ dl{
     flex-flow: column nowrap;
 }
 
+.container_for_text_and_picture{
+    width: 100%;
+}
+
