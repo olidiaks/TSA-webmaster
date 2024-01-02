@@ -88,3 +88,9 @@ dl{
     flex-flow: column nowrap;
 }
 
+/*End Nav */
+/*Fossil Fuels*/
+
+summary{
+    color: lawngreen;
+}
