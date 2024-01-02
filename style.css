@@ -95,3 +95,7 @@ dl{
 .img-floting-to-right{
     float: right;
 }
+
+.rounded-img{
+    border-radius: 100%;
+}
