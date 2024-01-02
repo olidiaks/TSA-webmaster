@@ -92,14 +92,18 @@ dl{
     width: 100%;
 }
 
-.img-floting-to-right img{ 
+.rounded-img{
+    border-radius: 100%;
+}
+
+.img-floating-to-right{ 
     float: right;
 }
 
-.img-floating-to-left img{
+.img-floating-to-left{
     float: left;
 }
 
-.rounded-img{
-    border-radius: 100%;
+.clear-floating{
+    clear: both;
 }
