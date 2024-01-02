@@ -98,6 +98,7 @@ dl{
 
 .img-floating-to-left img{
     float: left;
+}
 
 .rounded-img{
     border-radius: 100%;
