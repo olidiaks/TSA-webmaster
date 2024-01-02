@@ -84,6 +84,7 @@ dl{
 }
 
 .cleanpractdropdown:hover .cleandrop-content {
-    display: block;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
