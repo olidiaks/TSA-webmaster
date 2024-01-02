@@ -92,9 +92,12 @@ dl{
     width: 100%;
 }
 
-.img-floting-to-right{
+.img-floting-to-right img{
     float: right;
 }
+
+.img-floating-to-left img{
+    float: left;
 
 .rounded-img{
     border-radius: 100%;
