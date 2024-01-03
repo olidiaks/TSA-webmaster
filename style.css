@@ -89,8 +89,31 @@ dl{
 }
 
 /*End Nav */
-/*Fossil Fuels*/
 
+/* index.html double colummn formating */
+.container_for_text_and_picture{
+    width: 100%;
+}
+
+.rounded-img{
+    border-radius: 100%;
+}
+
+.img-floating-to-right{ 
+    float: right;
+}
+
+.img-floating-to-left{
+    float: left;
+}
+
+.clear-floating{
+    clear: both;
+}
+
+/* End index.html double colummn formating */
+
+/*Fossil Fuels*/
 summary{
     color: lawngreen;
 }
