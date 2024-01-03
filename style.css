@@ -2,23 +2,7 @@ body {
     background-color: black;
 }
 
-h1 {
-    color: white;
-}
-
-h2 {
-    color: white;
-}
-
-h3 {
-    color: white;
-}
-
-p {
-    color: white;
-}
-
-dl{   
+h1, h2, h3, p, dl{
     color: white;
 }
 
