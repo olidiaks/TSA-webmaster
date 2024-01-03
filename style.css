@@ -41,6 +41,10 @@ dl{
     text-decoration: none;
 }
 
+.nav a:hover {
+    background-color: red;
+}
+
 .cleanpractdropdown {
     float: left;
     overflow: hidden;
