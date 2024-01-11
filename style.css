@@ -5,7 +5,16 @@ body {
 h1, h2, h3, p, dl, li{
     color: white;
 }
+h1{
+    color: forestgreen;
+}
 
+h2{
+    color: green;
+}
+p{
+    color: darkseagreen;
+}
 /* NAV BAR */
 .nav {
     overflow: hidden;
@@ -26,7 +35,7 @@ h1, h2, h3, p, dl, li{
 }
 
 .nav a:hover {
-    background-color: red;
+    background-color: darkgreen;
 }
 
 .cleanpractdropdown {
@@ -46,13 +55,13 @@ h1, h2, h3, p, dl, li{
 }
 
 .cleanpractdropdown:hover .cleandropbtn {
-    background-color: red;
+    background-color: darkgreen;
 }
 
 .cleandrop-content {
     display: none;
     position: absolute;
-    background-color: darkseagreen;
+    background-color: seagreen;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -68,7 +77,7 @@ h1, h2, h3, p, dl, li{
 }
 
 .cleandrop-content a:hover {
-    background-color: red;
+    background-color: darkgreen;
 }
 
 .cleanpractdropdown:hover .cleandrop-content {
@@ -103,11 +112,11 @@ h1, h2, h3, p, dl, li{
 
 /*Fossil Fuels*/
 summary{
-    color: lawngreen;
+    color: green;
 }
 th{
     color: lawngreen;
 }
 td{
-    color: white;
+    color: darkseagreen;
 }
