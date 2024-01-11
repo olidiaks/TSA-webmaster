@@ -105,3 +105,9 @@ h1, h2, h3, p, dl, li{
 summary{
     color: lawngreen;
 }
+th{
+    color: lawngreen;
+}
+td{
+    color: white;
+}
