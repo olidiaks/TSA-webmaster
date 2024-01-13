@@ -2,14 +2,6 @@ body {
     background-color: black;
 }
 
-#navArrowUp{
-    position: sticky;
-    bottom: 5px;
-    right: 5px;
-    background: forestgreen;
-    color: white;
-}
-
 h1, h2, h3, p, dl, li{
     color: white;
 }
@@ -21,7 +13,7 @@ h2{
     color: green;
 }
 p{
-    color: darkseagreen;
+    color: white;
 }
 /* NAV BAR */
 .nav {
