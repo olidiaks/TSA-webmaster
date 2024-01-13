@@ -1,7 +1,7 @@
 //Top Scroll button.
 const scrollButton = () => {
 
-	console.log(document.getElementById("#topButton"));
+	document.getElementById("topButton").addEventListener('click', topFunction);
 
 	function topFunction() {
   		document.body.scrollTop = 0; // For Safari
