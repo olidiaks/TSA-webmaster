@@ -141,9 +141,11 @@ td{
   background-color: forestgreen;
   color: white; 
   cursor: pointer;
-  padding: 15px;
   border-radius: 10px;
   font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
 }
 
 #topButton:hover {
