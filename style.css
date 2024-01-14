@@ -190,7 +190,7 @@ td{
     color: darkseagreen;
 }
 /*Resources*/
-.resources h1, h2, h3, li, a, embed{
+.resources h1, h2, h3, p, li, a {
     text-align: center;
 }
 .resources ul{
