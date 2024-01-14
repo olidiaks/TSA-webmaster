@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    @import url(https://fonts.bunny.net/css?family=advent-pro:500);
+    font-family: 'Advent Pro', sans-serif;
 }
 
 h1, h2, h3, p, dl, li{
@@ -15,6 +17,7 @@ h2{
 }
 p{
     color: white;
+    font-size: 18px;
 }
 /* NAV BAR */
 .nav {
@@ -175,6 +178,7 @@ td{
 .resources ul{
    list-style-type: none;
    color: white; 
+   font-size: 18px;
 }
 .resources a:link {
   color: white;
