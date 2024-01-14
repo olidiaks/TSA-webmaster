@@ -12,6 +12,7 @@ h1{
     color: forestgreen;
     font-size: 30px;
     text-decoration: underline;
+    text-align: center;
 }
 
 h2{
@@ -138,7 +139,7 @@ p{
     padding: 15px 32px;
     margin: 4px 2px;
     border-radius: 12px;
-    display: inline-block;
+    display: block;
     transition-duration: 0.4s;
     cursor: pointer;
     box-shadow: 0 9px #013220;
@@ -182,12 +183,22 @@ p{
 /*Fossil Fuels*/
 summary{
     color: green;
+    font-size: 20px;
+    text-align: center;
 }
 th{
     color: darkgreen;
+    font-size: 20px;
+    text-align: center;
 }
 td{
     color: darkseagreen;
+    font-size: 20px;
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Resources*/
 .resources h1, h2, h3, p, li, a {
@@ -210,3 +221,4 @@ td{
     color: white;
     text-decoration: underline;
 }
+/*END Resources*/
