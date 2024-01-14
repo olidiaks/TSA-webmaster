@@ -76,7 +76,8 @@ p{
     display: none;
     position: absolute;
     background-color: darkseagreen;
-    min-width: 448px;
+    padding: 0;
+    min-width: 448.5px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -84,11 +85,11 @@ p{
 .cleandrop-content a {
     float: none;
     color: white;
-    padding: 12px auto;
+    padding: 12px 0;
     text-decoration: none;
     display: block;
     text-align: center;
-    width: 418px;
+    width: 100%;
     margin: 0;
 }
 
