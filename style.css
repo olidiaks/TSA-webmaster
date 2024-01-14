@@ -2,19 +2,18 @@ body {
     background-color: black;
 }
 
-h1, h2, h3, p, dl, li{
+h3, p, dl, li{
     color: white;
 }
 h1{
+
     color: forestgreen;
 }
 
 h2{
     color: green;
 }
-p{
-    color: white;
-}
+
 /* NAV BAR */
 .nav {
     overflow: hidden;
@@ -22,16 +21,18 @@ p{
     background-color: forestgreen;
     color: white;
     margin: auto;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 
 .nav a {
-    float: left;
     font-size: 16px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: auto;
 }
 
 .nav a:hover {
@@ -40,6 +41,7 @@ p{
 
 .cleanpractdropdown {
     float: left;
+    margin: auto;
     overflow: hidden;
 }
 
