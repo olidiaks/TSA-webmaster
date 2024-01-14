@@ -7,6 +7,7 @@ h1, h2, h3, p, dl, li{
 }
 h1{
     color: forestgreen;
+    text-decoration: underline;
 }
 
 h2{
@@ -169,4 +170,17 @@ th{
 }
 td{
     color: darkseagreen;
+}
+/*Resources*/
+.resources ul{
+   list-style-type: none;
+   color: white; 
+}
+.resources a:link {
+  color: white;
+  text-decoration: underline;
+}
+.resources a:visited {
+    color: white;
+    text-decoration: underline;
 }
