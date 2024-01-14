@@ -1,7 +1,7 @@
 body {
     background-color: black;
-    @import url(https://fonts.bunny.net/css?family=advent-pro:500);
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Geologica', sans-serif;
+
 }
 
 h1, h2, h3, p, dl, li{
@@ -9,11 +9,13 @@ h1, h2, h3, p, dl, li{
 }
 h1{
     color: forestgreen;
+    font-size: 30px;
     text-decoration: underline;
 }
 
 h2{
     color: green;
+    font-size: 21px;
 }
 p{
     color: white;
@@ -116,6 +118,7 @@ p{
 /*Button*/
 .homeButton {
     color: white;
+    font-family: 'Geologica', sans-serif;
     background-color: darkgreen;
     text-align: center;
     text-decoration: none;
@@ -140,6 +143,7 @@ p{
 }
 .harmButton {
     color: white;
+    font-family: 'Geologica', sans-serif;
     background-color: darkgreen;
     text-align: center;
     text-decoration: none;
@@ -179,6 +183,10 @@ td{
    list-style-type: none;
    color: white; 
    font-size: 18px;
+}
+.resources a{
+    color: white;
+    font-size: 18px;
 }
 .resources a:link {
   color: white;
