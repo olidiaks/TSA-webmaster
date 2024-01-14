@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    font-family: 'Geologica', sans-serif;
+
 }
 
 h3, p, dl, li{
@@ -8,13 +10,19 @@ h3, p, dl, li{
 h1{
 
     color: forestgreen;
+    font-size: 30px;
     text-decoration: underline;
 }
 
 h2{
     color: green;
+    font-size: 21px;
 }
 
+p{
+    color: white;
+    font-size: 18px;
+}
 /* NAV BAR */
 .nav {
     overflow: hidden;
@@ -120,6 +128,7 @@ h2{
 /*Button*/
 .homeButton {
     color: white;
+    font-family: 'Geologica', sans-serif;
     background-color: darkgreen;
     text-align: center;
     text-decoration: none;
@@ -144,6 +153,7 @@ h2{
 }
 .harmButton {
     color: white;
+    font-family: 'Geologica', sans-serif;
     background-color: darkgreen;
     text-align: center;
     text-decoration: none;
@@ -182,6 +192,11 @@ td{
 .resources ul{
    list-style-type: none;
    color: white; 
+   font-size: 18px;
+}
+.resources a{
+    color: white;
+    font-size: 18px;
 }
 .resources a:link {
   color: white;
