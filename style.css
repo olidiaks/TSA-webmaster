@@ -4,10 +4,11 @@ body {
 
 }
 
-h1, h2, h3, p, dl, li{
+h3, p, dl, li{
     color: white;
 }
 h1{
+
     color: forestgreen;
     font-size: 30px;
     text-decoration: underline;
@@ -17,6 +18,7 @@ h2{
     color: green;
     font-size: 21px;
 }
+
 p{
     color: white;
     font-size: 18px;
@@ -28,16 +30,20 @@ p{
     background-color: forestgreen;
     color: white;
     margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
 }
 
 
 .nav a {
-    float: left;
     font-size: 16px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 0;
+    width: 24%;
 }
 
 .nav a:hover {
@@ -45,8 +51,9 @@ p{
 }
 
 .cleanpractdropdown {
-    float: left;
+    margin: 0;
     overflow: hidden;
+    width: 24%;
 }
 
 .cleanpractdropdown .cleandropbtn {
@@ -58,6 +65,7 @@ p{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    width: 100%;
 }
 
 .cleanpractdropdown:hover .cleandropbtn {
@@ -68,18 +76,20 @@ p{
     display: none;
     position: absolute;
     background-color: darkseagreen;
-    min-width: 160px;
+    min-width: 448px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
-.cleandropdown-content a {
+.cleandrop-content a {
     float: none;
     color: white;
-    padding: 12px 16px;
+    padding: 12px auto;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
+    width: 418px;
+    margin: 0;
 }
 
 .cleandrop-content a:hover {
