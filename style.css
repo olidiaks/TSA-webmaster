@@ -189,6 +189,9 @@ td{
     color: darkseagreen;
 }
 /*Resources*/
+.resources h1, h2, h3, li, a, embed{
+    text-align: center;
+}
 .resources ul{
    list-style-type: none;
    color: white; 
