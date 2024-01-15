@@ -1,19 +1,28 @@
 body {
     background-color: black;
+    font-family: 'Geologica', sans-serif;
+
 }
 
-h1, h2, h3, p, dl, li{
+h3, p, dl, li{
     color: white;
 }
 h1{
+
     color: forestgreen;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
 }
 
 h2{
     color: green;
+    font-size: 21px;
 }
+
 p{
     color: white;
+    font-size: 18px;
 }
 /* NAV BAR */
 .nav {
@@ -22,16 +31,20 @@ p{
     background-color: forestgreen;
     color: white;
     margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
 }
 
 
 .nav a {
-    float: left;
-    font-size: 16px;
+    font-size: 21px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 0;
+    width: 24%;
 }
 
 .nav a:hover {
@@ -39,12 +52,13 @@ p{
 }
 
 .cleanpractdropdown {
-    float: left;
+    margin: 0;
     overflow: hidden;
+    width: 24%;
 }
 
 .cleanpractdropdown .cleandropbtn {
-    font-size: 16px;
+    font-size: 21px;
     border: none;
     outline: none;
     color: white;
@@ -52,6 +66,7 @@ p{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    width: 100%;
 }
 
 .cleanpractdropdown:hover .cleandropbtn {
@@ -62,18 +77,21 @@ p{
     display: none;
     position: absolute;
     background-color: darkseagreen;
-    min-width: 160px;
+    padding: 0;
+    min-width: 448.5px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
-.cleandropdown-content a {
+.cleandrop-content a {
     float: none;
     color: white;
-    padding: 12px 16px;
+    padding: 12px 0;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
+    width: 100%;
+    margin: 0;
 }
 
 .cleandrop-content a:hover {
@@ -109,29 +127,113 @@ p{
 }
 
 /* End index.html double colummn formating */
+/*Button*/
+.homeButton {
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    background-color: darkgreen;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    display: block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #013220;
+}
+.homeButton:hover {
+    color: white;
+    background-color: forestgreen;
+}
+.homeButton:active {
+    background-color: darkseagreen;
+    box-shadow: 0 5px #013220;
+    transform: translateY(4px);
+}
+.harmButton {
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    background-color: darkgreen;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #013220;
+}
+.harmButton:hover {
+    color: white;
+    background-color: forestgreen;
+}
+.harmButton:active {
+    background-color: darkseagreen;
+    box-shadow: 0 5px #013220;
+    transform: translateY(4px);
+}
+/*End Button*/
 
 /*Fossil Fuels*/
 summary{
     color: green;
+    font-size: 20px;
+    text-align: center;
 }
 th{
     color: darkgreen;
+    font-size: 20px;
+    text-align: center;
 }
 td{
     color: darkseagreen;
+    font-size: 20px;
+    text-align: center;
 }
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Resources*/
+.resources h1, h2, h3, p, li, a {
+    text-align: center;
+}
+.resources ul{
+   list-style-type: none;
+   color: white;
+   font-size: 18px;
+}
+.resources a{
+    color: white;
+    font-size: 18px;
+}
+.resources a:link {
+  color: white;
+  text-decoration: underline;
+}
+.resources a:visited {
+    color: white;
+    text-decoration: underline;
+}
+/*END Resources*/
 
 /* Top scrool button */
 #topButton {
-  display: block; 
+  display: block;
   position: fixed;
-  bottom: 20px; 
-  right: 30px; 
+  bottom: 20px;
+  right: 30px;
   z-index: 99;
   border: none;
   outline: none;
   background-color: forestgreen;
-  color: white; 
+  color: white;
   cursor: pointer;
   border-radius: 10px;
   font-size: 18px;
