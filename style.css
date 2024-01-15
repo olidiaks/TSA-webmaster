@@ -141,6 +141,16 @@ p{
     max-width: 1320px;
   }
 }
+
+.container-alain-items-to-center{
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.width-40{
+    width: 40%;
+}
 /* End container */
 
 /* img */
