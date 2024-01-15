@@ -147,9 +147,14 @@ p{
     display: flex;
     flex-flow: column nowrap;
 }
-
 .width-40{
     width: 40%;
+}
+.container-align-items-to-center{
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 60%;
 }
 /* End container */
 
