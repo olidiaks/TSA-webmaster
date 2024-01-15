@@ -4,10 +4,14 @@ body {
 
 }
 
-h3, p, dl, li{
+h3,
+p,
+dl,
+li {
     color: white;
 }
-h1{
+
+h1 {
 
     color: forestgreen;
     font-size: 30px;
@@ -15,24 +19,23 @@ h1{
     text-align: center;
 }
 
-h2{
+h2 {
     color: green;
     font-size: 21px;
 }
 
-p{
+p {
     color: white;
     font-size: 18px;
 }
+
 /* NAV BAR */
 .nav {
     overflow: hidden;
     width: 100%;
     background-color: forestgreen;
     color: white;
-    margin: auto;
-    display: flex;
-    flex-flow: row nowrap;
+    margin: 0;
     padding: 0;
 }
 
@@ -40,136 +43,141 @@ p{
 .nav a {
     font-size: 21px;
     color: white;
-    text-align: center;
+    text-align: start;
     padding: 14px 16px;
     text-decoration: none;
     margin: 0;
-    width: 24%;
 }
 
 .nav a:hover {
     background-color: darkgreen;
 }
 
-.cleanpractdropdown {
-    margin: 0;
-    overflow: hidden;
-    width: 24%;
-}
-
-.cleanpractdropdown .cleandropbtn {
-    font-size: 21px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    width: 100%;
-}
-
-.cleanpractdropdown:hover .cleandropbtn {
-    background-color: darkgreen;
-}
-
-.cleandrop-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: darkseagreen;
-    padding: 0;
-    min-width: 448.5px;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
-.cleandrop-content a {
-    float: none;
-    color: white;
-    padding: 12px 0;
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: center;
-    width: 100%;
-    margin: 0;
 }
 
-.cleandrop-content a:hover {
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
     background-color: darkgreen;
 }
 
-.cleanpractdropdown:hover .cleandrop-content {
-    display: flex;
-    flex-flow: column nowrap;
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: darkgreen;
 }
 
 /*End Nav */
 
 /* Container */
-.container{
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto;
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media (min-width: 576px) {
-  .container-sm, .container {
-    max-width: 540px;
-  }
+
+    .container-sm,
+    .container {
+        max-width: 540px;
+    }
 }
+
 @media (min-width: 768px) {
-  .container-md, .container-sm, .container {
-    max-width: 720px;
-  }
+
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
 }
+
 @media (min-width: 992px) {
-  .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
-  }
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
 }
+
 @media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
-  }
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
 }
+
 @media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
-  }
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
 }
+
 /* End container */
 
 /* img */
-.img-left-50{
+.img-left-50 {
     width: 49%;
     margin-right: 10px;
 }
 
-.img-right-50{
+.img-right-50 {
     width: 49%;
     margin-left: 10px;
 }
 
 
-.rounded-img{
+.rounded-img {
     border-radius: 100%;
 }
 
-.img-floating-to-right{ 
+.img-floating-to-right {
     float: right;
 }
 
-.img-floating-to-left{
+.img-floating-to-left {
     float: left;
 }
 
-.clear-floating{
+.clear-floating {
     clear: both;
 }
+
 /* end img */
 
 /*Button*/
@@ -181,7 +189,8 @@ p{
     display: inline-block;
 }
 
-.homeButton, .harmButton{
+.homeButton,
+.harmButton {
     color: white;
     font-family: 'Geologica', sans-serif;
     background-color: darkgreen;
@@ -197,54 +206,70 @@ p{
     box-shadow: 0 9px #013220;
 }
 
-.homeButton:hover, .harmButton:hover {
+.homeButton:hover,
+.harmButton:hover {
     background-color: forestgreen;
 }
 
-.homeButton:active, .harmButton:active {
+.homeButton:active,
+.harmButton:active {
     background-color: darkseagreen;
     box-shadow: 0 5px #013220;
     transform: translateY(4px);
 }
+
 /*End Button*/
 
 /*Fossil Fuels*/
-summary{
+summary {
     color: green;
     font-size: 20px;
     text-align: center;
 }
-th{
+
+th {
     color: darkgreen;
     font-size: 20px;
     text-align: center;
 }
-td{
+
+td {
     color: darkseagreen;
     font-size: 20px;
     text-align: center;
 }
+
 table {
     margin-left: auto;
     margin-right: auto;
 }
+
 /*Resources*/
-.resources h1, h2, h3, p, li, a {
+.resources h1,
+h2,
+h3,
+p,
+li,
+a {
     text-align: center;
 }
-.resources ul{
-   list-style-type: none;
-   color: white; 
-   font-size: 18px;
-}
-.resources a{
+
+.resources ul {
+    list-style-type: none;
     color: white;
     font-size: 18px;
 }
-.resources a:link {
-  color: white;
-  text-decoration: underline;
+
+.resources a {
+    color: white;
+    font-size: 18px;
 }
+
+.resources a:link {
+    color: white;
+    text-decoration: underline;
+}
+
 .resources a:visited {
     color: white;
     text-decoration: underline;
