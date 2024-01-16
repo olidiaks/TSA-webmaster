@@ -107,10 +107,70 @@ p{
 
 /*End Nav */
 
-/* index.html double colummn formating */
-.container_for_text_and_picture{
-    width: 100%;
+/* Container */
+.container{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
 }
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+  }
+}
+
+.container-alain-items-to-center{
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.width-40{
+    width: 40%;
+}
+.container-align-items-to-center{
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 60%;
+}
+/* End container */
+
+/* img */
+.img-left-50{
+    width: 49%;
+    margin-right: 10px;
+}
+
+.img-right-50{
+    width: 49%;
+    margin-left: 10px;
+}
+
 
 .rounded-img{
     border-radius: 100%;
@@ -127,35 +187,18 @@ p{
 .clear-floating{
     clear: both;
 }
+/* end img */
 
-/* End index.html double colummn formating */
 /*Button*/
 .homeButton {
-    color: white;
-    font-family: 'Geologica', sans-serif;
-    background-color: darkgreen;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    font-size: 18px;
-    padding: 15px 32px;
-    margin: 4px 2px;
-    border-radius: 12px;
     display: block;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    box-shadow: 0 9px #013220;
 }
-.homeButton:hover {
-    color: white;
-    background-color: forestgreen;
-}
-.homeButton:active {
-    background-color: darkseagreen;
-    box-shadow: 0 5px #013220;
-    transform: translateY(4px);
-}
+
 .harmButton {
+    display: inline-block;
+}
+
+.homeButton, .harmButton{
     color: white;
     font-family: 'Geologica', sans-serif;
     background-color: darkgreen;
@@ -166,16 +209,16 @@ p{
     padding: 15px 32px;
     margin: 4px 2px;
     border-radius: 12px;
-    display: inline-block;
     transition-duration: 0.4s;
     cursor: pointer;
     box-shadow: 0 9px #013220;
 }
-.harmButton:hover {
-    color: white;
+
+.homeButton:hover, .harmButton:hover {
     background-color: forestgreen;
 }
-.harmButton:active {
+
+.homeButton:active, .harmButton:active {
     background-color: darkseagreen;
     box-shadow: 0 5px #013220;
     transform: translateY(4px);
