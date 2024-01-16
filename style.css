@@ -4,10 +4,14 @@ body {
 
 }
 
-h3, p, dl, li{
+h3,
+p,
+dl,
+li {
     color: white;
 }
-h1{
+
+h1 {
 
     color: forestgreen;
     font-size: 30px;
@@ -15,18 +19,20 @@ h1{
     text-align: center;
 }
 
-h2{
+h2 {
     color: green;
     font-size: 21px;
 }
 
-p{
+p {
     color: white;
     font-size: 18px;
 }
+
 /* NAV BAR */
 .nav {
-    overflow: visible;;
+    overflow: visible;
+    ;
     width: 100%;
     background-color: forestgreen;
     color: white;
@@ -108,85 +114,113 @@ p{
 /*End Nav */
 
 /* Container */
-.container{
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto;
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media (min-width: 576px) {
-  .container-sm, .container {
-    max-width: 540px;
-  }
-}
-@media (min-width: 768px) {
-  .container-md, .container-sm, .container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
-  }
-}
-@media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
-  }
+
+    .container-sm,
+    .container {
+        max-width: 540px;
+    }
 }
 
-.container-alain-items-to-center{
+@media (min-width: 768px) {
+
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
+}
+
+.container-alain-items-to-center {
     align-items: center;
     display: flex;
     flex-flow: column nowrap;
 }
-.width-40{
+
+.width-40 {
     width: 40%;
 }
-.container-align-items-to-center{
+
+.container-align-items-to-center {
     align-items: center;
     display: flex;
     flex-flow: row nowrap;
     width: 60%;
 }
+
 /* End container */
 
 /* img */
-.img-left-50{
+.img-left-50 {
     width: 49%;
     margin-right: 10px;
 }
 
-.img-right-50{
+.img-right-50 {
     width: 49%;
     margin-left: 10px;
 }
 
 
-.rounded-img{
+.rounded-img {
     border-radius: 100%;
 }
 
-.img-floating-to-right{ 
+.img-floating-to-right {
     float: right;
 }
 
-.img-floating-to-left{
+.img-floating-to-left {
     float: left;
 }
 
-.clear-floating{
+.clear-floating {
     clear: both;
 }
+
 /* end img */
 
 /*Button*/
@@ -198,7 +232,8 @@ p{
     display: inline-block;
 }
 
-.homeButton, .harmButton{
+.homeButton,
+.harmButton {
     color: white;
     font-family: 'Geologica', sans-serif;
     background-color: darkgreen;
@@ -214,56 +249,73 @@ p{
     box-shadow: 0 9px #013220;
 }
 
-.homeButton:hover, .harmButton:hover {
+.homeButton:hover,
+.harmButton:hover {
     background-color: forestgreen;
 }
 
-.homeButton:active, .harmButton:active {
+.homeButton:active,
+.harmButton:active {
     background-color: darkseagreen;
     box-shadow: 0 5px #013220;
     transform: translateY(4px);
 }
+
 /*End Button*/
 
 /*Fossil Fuels*/
-summary{
+summary {
     color: green;
     font-size: 20px;
     text-align: center;
 }
-th{
+
+th {
     color: darkgreen;
     font-size: 20px;
     text-align: center;
 }
-td{
+
+td {
     color: darkseagreen;
     font-size: 20px;
     text-align: center;
 }
+
 table {
     margin-left: auto;
     margin-right: auto;
 }
+
 /*Resources*/
-.resources h1, h2, h3, p, li, a {
+.resources h1,
+h2,
+h3,
+p,
+li,
+a {
     text-align: center;
 }
-.resources ul{
-   list-style-type: none;
-   color: white; 
-   font-size: 18px;
-}
-.resources a{
+
+.resources ul {
+    list-style-type: none;
     color: white;
     font-size: 18px;
 }
-.resources a:link {
-  color: white;
-  text-decoration: underline;
+
+.resources a {
+    color: white;
+    font-size: 18px;
 }
+
+.resources a:link {
+    color: white;
+    text-decoration: underline;
+}
+
 .resources a:visited {
     color: white;
     text-decoration: underline;
 }
+
 /*END Resources*/
