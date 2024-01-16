@@ -175,6 +175,17 @@ p {
     }
 }
 
+
+.width-40{
+    width: 40%;
+}
+.container-align-items-to-center{
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 60%;
+}
+
 /* End container */
 
 /* img */
@@ -301,5 +312,4 @@ a {
     color: white;
     text-decoration: underline;
 }
-
 /*END Resources*/
