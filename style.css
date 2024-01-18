@@ -9,7 +9,7 @@ p,
 dl,
 li {
     color: white;
-text-align: center;
+text-align: left;
 }
 
 h1 {
@@ -290,7 +290,7 @@ h3,
 p,
 li,
 a {
-    text-align: center;
+    text-align: left;
 }
 
 .resources ul {
